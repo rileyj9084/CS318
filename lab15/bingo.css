@@ -1,0 +1,29 @@
+td:hover{
+    background-color: aqua;
+    
+    
+}
+
+
+table{
+    border-spacing: 0 0;
+}
+td{
+    font-size: 20pt;
+    text-align: center;
+    width: 4em;
+    height:4em;
+    border:1px solid black;
+    
+}
+
+.free{
+    
+    background-color:darkolivegreen;
+    
+   
+   
+}
+th{
+    font-size: 26pt;
+}
