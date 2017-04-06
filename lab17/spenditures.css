@@ -1,0 +1,165 @@
+body{
+    font-family: sans-serif;
+    top:0;
+    margin:0;
+    
+    
+}
+
+header{
+    background-color: brown;
+    color:white;
+    
+}
+
+nav{
+    background-color: #006;
+    padding: 10px; 
+    border-top: 1px;
+    border-top-color: white;
+    border-style: solid;
+    position: relative;
+    cursor: pointer;
+    
+    
+ 
+}
+
+nav ul ul{
+    position:absolute;
+    background-color: #403F2F;
+    padding:0;
+    text-align:left;
+    display:none;
+}
+
+nav ul li li{
+    
+    border-bottom: 1px solid white;
+    display: block; 
+    width:7em;
+    padding-left: 1em;
+    margin-left: 0;
+}
+
+nav li:hover ul{
+    display: block;
+    box-shadow: 5px 5px 10px grey; 
+}
+
+nav li ul li:hover{
+    background-color: darkgray; 
+}
+
+main{
+ margin-left: 40%;
+}
+
+td:nth-of-type(even){ 
+    text-align: right;
+}
+
+tr:nth-of-type(even){
+    
+    background-color: gainsboro;
+}
+h1{
+    
+    padding:10px;
+    margin:0;
+}
+ul{
+    
+    margin:0;
+    padding: 0;
+    list-style-type: none; 
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+.label{
+    display:inline-block;
+    border-right: 1px solid white; 
+    padding-left: 5px; 
+    padding-right: 2px;
+   
+}
+
+.label:hover {
+    background-color: #403F2F; 
+      padding-left: 0;
+}
+
+#icon {
+    display: none; 
+    position: absolute; 
+}
+@media (max-width: 40em) {
+    
+    main {
+        position: static;
+		clear: both;
+    }
+	nav{
+		width: 100%;
+        display: none; 
+	}
+ 
+    li {
+        display: inline;
+    }
+	
+	span{
+		display: none;
+	}
+    #icon{
+        display: block; 
+        float: right;
+        position:relative; 
+        bottom: 50px;
+        right: 5px;
+        font-size: 25pt;
+         
+    }
+    
+   #icon ul{
+    position:absolute;
+    background-color: #403F2F;
+    padding-left: 0;
+    text-align:left;
+    display:none;
+    right: 0;
+}
+
+#icon ul li{
+    
+    border-bottom: 1px solid white;
+    display: block; 
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 17px;
+}
+
+#icon ul:hover li{
+    display: block;
+    box-shadow: 5px 5px 10px grey; 
+}
+
+#icon  li:hover{
+    background-color: darkgray; 
+}
+        
+    }
+    main{
+        
+        position: static; 
+        clear: both; 
+    }  
+#icon:hover ul {
+    display: block;
+}
+}
