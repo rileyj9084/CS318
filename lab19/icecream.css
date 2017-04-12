@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box; 
+}
+
+form {
+font-size: 12pt; 
+font-family: sans-serif; 
+border-radius: 10px; 
+font-weight: bold;  
+padding: 20px; 
+background-color:lightblue; 
+width: 600px;
+height: auto;  
+}
+
+
+#name {
+    width: 200px; 
+}
+
+#flavor {
+    width: 200px; 
+}
+
+#container {
+    width: 200px; 
+}
+
+label {
+    clear: both; 
+    width:30%; 
+    float: left; 
+}
+#order {
+    margin-left: 170px; 
+}
