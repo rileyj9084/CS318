@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box; 
+}
+
+form {
+font-size: 12pt; 
+font-family: sans-serif; 
+border-radius: 20px; 
+font-weight: bold;  
+padding: 20px; 
+background-color:violet; 
+width: 500px;
+height: auto; 
+color: mediumvioletred; 
+}
+
+button {
+    background-color: white; 
+    color: mediumvioletred; 
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 5px; 
+}
