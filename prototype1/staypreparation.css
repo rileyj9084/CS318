@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif; 
+    margin:0;
+    background-image: url("pleasantvalley3.jpg"); 
+    background-size: 105%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    
+}
+
+.info {
+    width: 90%; 
+    border-radius: 20px; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    padding: 25px;
+    background-color: rgba(255,255,255,0.7)
+}
+a {
+    color: white; 
+    text-decoration: none; 
+    text-decoration-style: bold; 
+    font-size: 25px; 
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+h1 {
+    color: black;  
+    font-size: 40pt; 
+}
+
+img {
+    display: inline-block; 
+    width: 375px; 
+    height: 275px; 
+}
+
+nav {
+    width: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: maroon; 
+    border-radius: 20px; 
+    
+}
+.navbar {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 10px; 
+}
+@media (max-width: 40em) {
+    nav {
+        display: block; 
+        width: 85%; 
+      
+    }
+    .navbar {
+        text-align: center; 
+    }
+    h1 {
+        font-size: 30pt;
+    }
+    img {
+        width: 200px;
+        height: 150px; 
+    }
+    body { 
+        background-color: maroon; 
+        background-image: none; 
+    }  
+}
