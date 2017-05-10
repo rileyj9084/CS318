@@ -78,6 +78,7 @@ nav {
     margin-right: auto; 
     padding: 10px; 
 }
+
 @media (max-width: 75em) {
     nav {
         display: block; 
