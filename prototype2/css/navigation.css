@@ -46,8 +46,9 @@ h1 {
 table {
     font-size: 20pt; 
     text-align: center;  
-    border-color: black; 
+    border-color: white; 
     color: white; 
+    border-width: medium; 
 }
 tr {
     padding: 5px; 
