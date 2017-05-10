@@ -47,7 +47,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     background-color: maroon; 
-    border-radius: 20px; 
+    border-radius: 15px; 
     
 }
 .navbar {
@@ -65,10 +65,23 @@ nav {
      
 }
 .cabins a {
-     text-decoration: none; 
+    text-decoration: none; 
     text-decoration-style: bold;
     color: maroon; 
     font-size: 20px; 
+}
+
+#cabinimage h3 {
+    width: 150px; 
+    display: inline-block;
+}
+#cabinimage {
+    display: inline-block; 
+}
+
+#deer, #bird, #moose, #bear {
+    width:375px; 
+    display: inline-block; 
 }
 
 @media (max-width: 75em) {
